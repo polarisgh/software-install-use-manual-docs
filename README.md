@@ -17,8 +17,8 @@ cd 本地待建立仓库路径
 # 关联远程仓库
 git init
 # git配置
-git config --global user.name "用户名"
-git config --global user.email "邮箱"
+git config --global user.name "yourname"
+git config --global user.email "youremail@example.com"
 # windows环境下换行问题
 git config --global core.autocrlf false
 # 关联远程仓库
