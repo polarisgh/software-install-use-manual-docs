@@ -26,15 +26,17 @@ git remote add origin git@github.com:polarisgh/software-install-use-manual-docs.
 git pull origin author
 # 所有编辑工作请在author分支完成
 git checkout author
-# 拉取更新
+# 拉取更新（提交命令前一定注意要先pull，如有冲突解决完冲突再提交）
 git pull origin author
 # 新增/更新
 git add .
 git commit -m "add/update xxx"	
+git pull origin author
 git push -u origin author
 # 删除
 git rm xxx.xxx
 git commit -m "delete xxx"	
+git pull origin author
 git push -u origin author
 ```
 
