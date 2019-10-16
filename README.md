@@ -5,7 +5,7 @@
 | -------- | ------------------ |
 | 操作系统 | ubuntu-16.04.2_x64 |
 | 虚拟机   | VirtualBox-5.1.18  |
-| IP       | 192.168.0.101      |
+| IP       | 192.168.0.101、192.168.0.102、192.168.0.103      |
 | 超级用户 | root/smartai       |
 | 操作用户 | smartai/smartai    |
 
@@ -26,3 +26,8 @@
 | VirtualBox    | VirtualBox-5.1.18-114002.exe                          | http://download.virtualbox.org/virtualbox/                   |
 | Zookeeper     | zookeeper-3.4.10.tar.gz                               | http://archive.apache.org/dist/zookeeper/zookeeper-3.4.10/   |
 
+## 完成列表
+
+| 软件          | 文件名                                                  | 
+| ------------- | ----------------------------------------------------- | 
+| Flink | [安装文档]-VirtualBox_Ubuntu-16.04_Flink-cluster-06-20191009-001.docx                            | 
