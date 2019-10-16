@@ -38,27 +38,35 @@ git commit -m "delete xxx"
 git push -u origin author
 ```
 
-
 ## 版本
 
+**说明**：***更新该列表时请按照软件名称的字典顺序编辑***
 
-| 软件          | 版本                                                  | 来源                                                         |
-| ------------- | ----------------------------------------------------- | ------------------------------------------------------------ |
-| elasticsearch | elasticsearch-6.3.0.tar.gz                            | https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.3.0.tar.gz |
-| Flink         | flink-1.9.0-src.tgz                                   | http://archive.apache.org/dist/flink/flink-1.9.0/            |
-| JDK           | jdk-8u211-linux-x64.tar.gz                            | https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8u211-later-5573849.html |
-| git-msysGit   | Git-2.17.0-64-bit.exe                                 | https://git-scm.com/download                                 |
-| git-EGit      | Eclipse Marketplace                                   | https://www.eclipse.org/egit/download/                       |
-| Kafka         | kafka_2.11-0.11.0.3.tgz                               | http://kafka.apache.org/downloads.html                       |
-| Maven         | apache-maven-3.2.5-bin.tar.gz                         | https://archive.apache.org/dist/maven/maven-3/               |
-| MySQL         | mysql-server_5.7.22-1ubuntu16.04_amd64.deb-bundle.tar | https://downloads.mysql.com/archives/community/              |
-| OS            | ubuntu-16.04.2-desktop-amd64.iso                      | http://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-amd64.iso |
-| VirtualBox    | VirtualBox-5.1.18-114002.exe                          | http://download.virtualbox.org/virtualbox/                   |
-| Zookeeper     | zookeeper-3.4.10.tar.gz                               | http://archive.apache.org/dist/zookeeper/zookeeper-3.4.10/   |
+
+| 软件              | 版本                                                  | 来源                                                         |
+| ----------------- | ----------------------------------------------------- | ------------------------------------------------------------ |
+| ELK-elasticsearch | elasticsearch-6.3.0.tar.gz                            | https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.3.0.tar.gz |
+| ELK-logstash      | logstash-6.3.0.tar.gz                                 | https://artifacts.elastic.co/downloads/logstash/logstash-6.3.0.tar.gz |
+| ELK-kibana        | kibana-6.3.0-linux-x86_64.tar.gz                      | https://artifacts.elastic.co/downloads/kibana/kibana-6.3.0-linux-x86_64.tar.gz |
+| Flink             | flink-1.9.0-src.tgz                                   | http://archive.apache.org/dist/flink/flink-1.9.0/            |
+| Hadoop            | hadoop-2.6.4.tar.gz                                   | https://archive.apache.org/dist/                             |
+| Hive              | apache-hive-1.2.1-bin.tar.gz                          | https://archive.apache.org/dist/                             |
+| JDK               | jdk-8u211-linux-x64.tar.gz                            | https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8u211-later-5573849.html |
+| git-msysGit       | Git-2.17.0-64-bit.exe                                 | https://git-scm.com/download                                 |
+| git-EGit          | Eclipse Marketplace                                   | https://www.eclipse.org/egit/download/                       |
+| Kafka             | kafka_2.11-0.11.0.3.tgz                               | http://kafka.apache.org/downloads.html                       |
+| Maven             | apache-maven-3.2.5-bin.tar.gz                         | https://archive.apache.org/dist/maven/maven-3/               |
+| MySQL             | mysql-server_5.7.22-1ubuntu16.04_amd64.deb-bundle.tar | https://downloads.mysql.com/archives/community/              |
+| OS                | ubuntu-16.04.2-desktop-amd64.iso                      | http://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-amd64.iso |
+| VirtualBox        | VirtualBox-5.1.18-114002.exe                          | http://download.virtualbox.org/virtualbox/                   |
+| Zookeeper         | zookeeper-3.4.10.tar.gz                               | http://archive.apache.org/dist/zookeeper/zookeeper-3.4.10/   |
 
 ## 完成列表
 
-| 软件          | 文件名                                                  | 
-| ------------- | ----------------------------------------------------- | 
-| Flink | /Flink/[安装文档]-VirtualBox_Ubuntu-16.04_Flink-cluster-06-20191009-001.docx                            | 
-| JDK | /JDK/[安装文档]-jdk-8u211安装文档-01-20191015-001.docx                            | 
+**状态说明**： U-修改中；D-已完成； S-最终版；（***更新该列表时请按照软件名称的字典顺序编辑***）
+
+| 软件          | 文件名                                                  | 状态                                            |
+| ------------- | ----------------------------------------------------- | ------------- |
+| Flink | /Flink/[安装文档]-VirtualBox_Ubuntu-16.04_Flink-cluster-06-20191009-001.docx | S                           |
+| git | /git/Git、GitHub、GitLab基本原理、安装与应用-01-20191011-001.docx | U |
+| JDK | /JDK/[安装文档]-jdk-8u211安装文档-01-20191015-001.docx                            | S                           |
