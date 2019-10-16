@@ -9,6 +9,19 @@
 | 超级用户 | root/smartai       |
 | 操作用户 | smartai/smartai    |
 
+## 操作指引
+```shell
+# 编辑工作请在author分支完成
+git checkout author
+# 拉取更新
+git pull origin author
+# 提交更新
+git add .
+git commit -m "update xxx"	
+git push -u origin author
+```
+
+
 ## 版本
 
 
@@ -30,4 +43,5 @@
 
 | 软件          | 文件名                                                  | 
 | ------------- | ----------------------------------------------------- | 
-| Flink | [安装文档]-VirtualBox_Ubuntu-16.04_Flink-cluster-06-20191009-001.docx                            | 
+| Flink | /Flink/[安装文档]-VirtualBox_Ubuntu-16.04_Flink-cluster-06-20191009-001.docx                            | 
+| JDK | /JDK/[安装文档]-jdk-8u211安装文档-01-20191015-001.docx                            | 
