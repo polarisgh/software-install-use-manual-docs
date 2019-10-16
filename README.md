@@ -15,6 +15,9 @@
 git config --local user.name "用户名"
 git config --local user.email "邮箱"
 # 拉取远程仓库
+cd 本地待建立仓库路径
+# 关联远程仓库
+git remote add origin git@github.com:polarisgh/software-install-use-manual-docs.git
 git init
 git pull origin author
 # 编辑工作请在author分支完成
