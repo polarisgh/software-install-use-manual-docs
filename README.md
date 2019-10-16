@@ -18,15 +18,22 @@ git init
 # git配置
 git config --global user.name "用户名"
 git config --global user.email "邮箱"
+# windows环境下换行问题
+git config --global core.autocrlf false
+# 关联远程仓库
 git remote add origin git@github.com:polarisgh/software-install-use-manual-docs.git
 git pull origin author
-# 编辑工作请在author分支完成
+# 所有编辑工作请在author分支完成
 git checkout author
 # 拉取更新
 git pull origin author
-# 提交更新
+# 新增/更新
 git add .
-git commit -m "update xxx"	
+git commit -m "add/update xxx"	
+git push -u origin author
+# 删除
+git rm xxx.xxx
+git commit -m "delete xxx"	
 git push -u origin author
 ```
 
