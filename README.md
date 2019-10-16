@@ -13,7 +13,7 @@
 ssh-keygen -t rsa -C "youremail@example.com"
 # 配置GitHub ==> Settings ==> SSH and GPG keys（~/.ssh/id_rsa.pub）
 # 拉取远程仓库
-cd 本地待建立仓库路径
+cd local repositories path
 # 关联远程仓库
 git init
 # git配置
