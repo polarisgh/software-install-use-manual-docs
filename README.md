@@ -11,6 +11,12 @@
 
 ## 操作指引
 ```shell
+# git配置
+git config --local user.name "用户名"
+git config --local user.email "邮箱"
+# 拉取远程仓库
+git init
+git pull origin author
 # 编辑工作请在author分支完成
 git checkout author
 # 拉取更新
